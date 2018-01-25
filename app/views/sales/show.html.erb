@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Cust:</strong>
+  <%= @sale.cust_id %>
+</p>
+
+<p>
+  <strong>Product:</strong>
+  <%= @sale.product_id %>
+</p>
+
+<p>
+  <strong>Product name:</strong>
+  <%= @sale.product_name %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @sale.date %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @sale.price %>
+</p>
+
+<p>
+  <strong>Qty:</strong>
+  <%= @sale.qty %>
+</p>
+
+<%= link_to 'Edit', edit_sale_path(@sale) %> |
+<%= link_to 'Back', sales_path %>
